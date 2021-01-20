@@ -1,0 +1,6 @@
+<h1>My tasks</h1>
+<ul *ngFor="let task of tasks">
+	<app-todo-item [task]="task">
+	</app-todo-item>
+</ul>
+<app-newtask></app-newtask>

@@ -1,0 +1,4 @@
+<li *ngIf="!task.isDone">
+	{{ task.label }}
+	<button (click)="remove()"> Remove </button>
+</li>
